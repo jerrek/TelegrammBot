@@ -8,7 +8,7 @@ import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
 
 import java.util.Random;
-
+// класс предназначен для подключения бота к сети и обработку команд от пользователя
 public class Main extends TelegramLongPollingBot {
 
     public static void main(String[] args) throws Exception {
